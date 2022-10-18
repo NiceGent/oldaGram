@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+#logo,
+#avatar {
+    height: 70px;
+    padding: 10px 16px;
+}
+
+#avatar {
+    border-radius: 100%;
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+}
+
+.post-header img {
+    height: 100%;
+    border-radius: 100%;
+}
+
+.post-header-information {
+    margin: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-header-information ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    display: block;
+}
+
+.post-header-information ul li {
+    padding-bottom: 2px;
+}
+
+.post-header-information ul li:first-child {
+    font-weight: bold;
+}
+
+.post-header-picture {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.post-picture-main img {
+    width: 100%;
+}
+
+.post-icons ul,
+.post-icons ul li ul {
+    margin: 0;
+    padding: 0;
+}
+
+.post-icons ul {
+    margin-left: 5px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+}
+
+.post-icons ul li ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;  
+}
+
+.post-icon {
+    height: 34px;
+    display: flex;
+}
+
+.comments {
+    margin-top: 5px;
+}
+
+.bolder {
+    font-weight: normal;
+}
